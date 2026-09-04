@@ -19,7 +19,7 @@ jobs:
           java-version: "17"
 
       - name: Compile Java Code
-        run: javac app.java
+        run: javac Myapp.java
 
       - name: Run Java Program
         run: java App
